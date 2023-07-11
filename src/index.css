@@ -75,14 +75,18 @@ button {
 .removeIcon {
   cursor: pointer;
   position: absolute;
-  top: -3%;
-  right: -2%;
+  top: 10%;
+  right: 0;
+  border: 1px solid #e74c3c;
+  border-radius: 5px;
 }
 .editIcon {
   cursor: pointer;
   position: absolute;
-  top: -3.4%;
-  right: 20px;
+  top: 50%;
+  right: 0;
+  border: 1px solid #00cc66;
+  border-radius: 5px;
 }
 
 .pageContainer,
@@ -456,6 +460,7 @@ button {
   display: flex;
   align-items: center;
 }
+
 
 .categoryListingInfoDiv {
   display: flex;
